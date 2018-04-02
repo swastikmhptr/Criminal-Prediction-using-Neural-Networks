@@ -3,17 +3,21 @@ This is a Project where the model predicted the chances of a person being a crim
 
 
 TOOLS USED:-
+
 - The model is coded and run in Jupyter notebook Environment
+
 - NO external tools have been used, the entire model is coded with Basic Python using Numpy Library for Vectorization.
   (Python3 and Numpy)
+  
  
 Data files:-
 (present in "data" folder)
+
 "train.txt"- Contains the original train dataset with 71 columns which are arranged in Ascending order,
              and the "PERID" column Removed.
+             
 "test.txt"- Contains the original test dataset with 70 columns which are arranged un Ascending order,
             and the "PERID"column is removed.
-(Note: Because of the rearranged order of test dataset the model returns the results in ascending order of "PERID")
 
 Source File:-
 
@@ -22,6 +26,7 @@ Source File:-
 - I have used an "Artificial Neural Network" approach to solve this problem.
 
 - Architecture:-
+
   -> The model i have traoined is a 5 layered Neural Network with one input layer, 3 hidden layer and one output layer.
   
   -> All the Hidden layers are RELU activated while the output layer with Single Neuron in SIGMAID activated.
