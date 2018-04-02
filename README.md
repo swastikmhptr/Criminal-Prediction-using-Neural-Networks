@@ -16,15 +16,20 @@ Data files:-
 (Note: Because of the rearranged order of test dataset the model returns the results in ascending order of "PERID")
 
 Source File:-
+
 - The source file has been trained on a Jupyter Notebook Environment.
 
 - I have used an "Artificial Neural Network" approach to solve this problem.
 
 - Architecture:-
   -> The model i have traoined is a 5 layered Neural Network with one input layer, 3 hidden layer and one output layer.
+  
   -> All the Hidden layers are RELU activated while the output layer with Single Neuron in SIGMAID activated.
+  
   -> Mini-Batch Gradient descent is implemented with mini-batches of 128 entries.
+  
   -> ADAM Optimization is implemented with Betaa1=0.9 and Beta2=0.999
+  
   -> The Learning Rate is set at 0.001 and the Model is trained for 620 Iterations.
 
 - Results:-
